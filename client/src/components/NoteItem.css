@@ -1,0 +1,34 @@
+/* TodoItem.css */
+.todo-item {
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  margin-bottom: 10px;
+  width: 50%; /* Set the width to 50% */
+  margin-left: auto; /* Center the item horizontally */
+  margin-right: auto; /* Center the item horizontally */
+}
+
+.todo-item-title {
+  font-size: 18px;
+  font-weight: bold;
+  margin-bottom: 5px;
+}
+
+.todo-item-description {
+  margin-bottom: 10px;
+}
+
+.todo-item-delete-button {
+  background-color: #dc3545;
+  color: #fff;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.todo-item-delete-button:hover {
+  background-color: #c82333;
+}

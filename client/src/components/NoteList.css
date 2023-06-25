@@ -1,0 +1,25 @@
+.todo-list-container {
+  margin-bottom: 20px;
+  background-color: #f8f8f8;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  padding: 10px;
+  width: 50%; /* Set the width to 50% */
+  margin-left: auto; /* Center the list horizontally */
+  margin-right: auto; /* Center the list horizontally */
+}
+
+.todo-list-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: blue;
+  margin-bottom: 10px;
+
+  display: block;
+  margin: 0 auto;
+}
+
+.no-todos {
+  font-style: italic;
+  color: #888;
+}
